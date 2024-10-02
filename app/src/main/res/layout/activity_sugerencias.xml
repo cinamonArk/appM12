@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#0FC2C0"
     android:layout_height="match_parent">
 
     <Button
@@ -12,6 +13,7 @@
         android:layout_marginStart="11dp"
         android:layout_marginTop="6dp"
         android:text="Volver"
+        android:backgroundTint="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
