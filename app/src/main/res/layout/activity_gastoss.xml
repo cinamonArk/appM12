@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/fondo2"
     android:layout_height="match_parent">
 
     <Button
@@ -13,6 +14,7 @@
         android:layout_marginTop="1dp"
         android:layout_marginBottom="270dp"
         android:text="Volver"
+        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,6 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="AGREGAR"
+        android:backgroundTint="@color/black"
         app:layout_constraintBaseline_toBaselineOf="@+id/button6"
         app:layout_constraintEnd_toStartOf="@+id/button6"
         app:layout_constraintStart_toStartOf="parent" />
@@ -33,6 +36,7 @@
         android:layout_marginTop="204dp"
         android:layout_marginEnd="15dp"
         android:text="ELIMINAR"
+        android:backgroundTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button_agregar_gastos"
         app:layout_constraintTop_toTopOf="parent" />
@@ -40,7 +44,7 @@
     <EditText
         android:id="@+id/editTextTextMultiLine"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="45dp"
         android:ems="10"

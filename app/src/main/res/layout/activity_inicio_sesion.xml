@@ -33,7 +33,7 @@
     <EditText
         android:id="@+id/input_email_iniciosesion"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="189dp"
         android:ems="10"
         android:hint="Correo electronico"
@@ -45,7 +45,7 @@
     <EditText
         android:id="@+id/input_password"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="22dp"
         android:layout_marginEnd="12dp"
         android:ems="10"
